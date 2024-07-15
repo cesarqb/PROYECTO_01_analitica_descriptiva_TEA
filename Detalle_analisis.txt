@@ -1,0 +1,108 @@
+# Dudas sobre analisis
+# --------------------
+
+-> Como trabajar la ponderación de calidad de racimos (terceros) - Revisarlo con Willy (ponderacion en base a pesos)
+-> Como trabajar la ponderación de calidad de racimos a nivel de sector y parcela (propios) - (Trabajarlo a nivel semanal) - (se extrapolará para cada extractora)
+(se trabajará por sectores para saber la extractora de pertenencia)
+-> Perdida y frecuencia de cosecha tambien se trabajará por sectores.
+-> Perdida en transporte tamnbien sectorizar (no se evalua en nuevo horizonte).
+-> Perdidas en aceite - se considerará información de fabrica desde el 2022 (se revisará las formulas anteriores) - Rolly
+-> Saldo en campo, relacionado con la acidez de la fruta (H1)
+-> RFF Procesado/ CPO Obtenido pero subdivido en propios y terceros (Cashcost)
+-> ACIDEZ - solicitar Guillermo Leaño/ Edinson - de Calidad (Rolly pasará de las 4 sedes)
+-> CLIMA - Trabajar de forma sectorizada para ver las estaciones metereologicas (Rolly pasará de las 2 sedes)
+-> EDAD PLANTACION (Rolly pasará de las 2 sedes) -> se tiene desde el año 2019 (se extrapolará para cada extractora)
+-> RFF Palma joven -> hace referencia a numero de palmas cosechadas por plantas jovenes vs viejas? (se extrapolará para cada extractora)
+
+-> FERTILIZANTES (dosis/ fuentes) - Niveles de nutrientes (Pendiente reunion con Fernando Tuesta/ Rolando de Nutrición) -  (Rolly pasará de las 2 sedes)
+¿qué nutriente o acumuluacion de que nutriente influye en acumuluacion de aceite? - analisis foliar
+
+-> DATOS DE SUELO/ DATOS DE ANALISIS FOLIAR/ DATOS DE RENDIMIENTO
+(Pedir reunión con Fernando Tuesta/ Rolando de Nutrición)
+
+-> % INCIDENCIA DE CASTNIA (PLAGA) 
+(Pedir reunion con Sanidad)
+
+
+
+
+
+
+# Variables consideradas
+# -----------------
+
+# Calidad de cosecha (CALIDAD RFF - razimo fruto fresco)
+# Calidad de cadenas productivas
+# Perdidas de aceite (FABRICA -> Los calculos de las formulas de perdidas han cambiado)
+
+
+
+# Antiguedad de palmas
+# humedad
+
+
+
+# Pedidos de consultoras
+- Antes de su visita sería muy útil que le enviaras la siguiente información:
+- Datos del suelo
+- Datos de análisis foliar
+- Datos de rendimiento
+- Datos sobre el uso de fertilizantes en el pasado
+- Datos climáticos (precipitaciones, número de días de lluvia, déficit hídrico, temperaturas)
+
+
+
+
+
+# Resumen inicial de BBDD
+# --------------------
+
+# Qué base se tomará para el análisis? Hay data de sabana TEA y data de excel Calidad. Son iguales?
+# Descriptivo inicial.
+# Fechas disponibles
+# Nro proveedores por fecha
+
+# Fechas de toma de muestras por día: son las mismas fechas? cómo calidad toma las muestras? 
+# Qué % de la producción total del día representa los pesos de palmicultores por Plantación. Hay días anómalos? hay días picos recurrentes? fechas picos por considerar?
+# Qué % de la producción total del día es revisada por calidad?
+# Cuales son los palmicultores top por mes/ semana? 
+# Cuales es el ratio de salida e ingreso de nuevos pamicultores
+
+
+
+
+# observaciones
+# -------------
+
+# OBS Tulumayo
+# --
+# ---> Por qué hay tickets repetidos?
+# ---> Por qué hay días que los palmicultores no desembarcan?
+
+
+# OBS RFF Procesado Fabrica
+# --
+# ---> Por qué hay dias con RFF Procesado igual a cero?
+ 
+
+
+
+
+# Hallazgos
+# -------------------
+# -------------------
+# -------------------
+
+# ---> Dimensión de Variables
+df_sabana_balanza -> toneladas recibidas de las 4 sedes (años 2020 - 2024)
+df_sabana_fabrica -> Procesado y obtenido de las 4 sedes (años 2023 - 2024)
+df_precipitacion -> ml en presipitacion de lluvi de las 4 sedes (años 2006,2019, 2022 - 2024)
+df_calidad_racimos_propios -> unidades y totales para 3 plantaciones (años 2022 - 2024)
+
+
+df_saldo_campo -> saldo no transportado de 2 sedes (años 2023 - 2024) [[[*********************]]]
+
+
+
+
+

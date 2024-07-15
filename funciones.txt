@@ -1,0 +1,5 @@
+function_completitud(df_x, variable, valor = 2)
+function_tendencia_unica(df_x, valor)
+function_save(df_x)
+
+
