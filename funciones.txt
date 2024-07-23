@@ -1,5 +1,23 @@
 function_completitud(df_x, variable, valor = 2)
 function_tendencia_unica(df_x, valor)
+correlacion_cruzada(serie1, serie2)
 function_save(df_x)
 
 
+
+
+# Salidas
+# -------
+
+
+# calidad racimos
+# ----
+
+df_analisis_tendencia_semana_2
+df_analisis_tendencia_mes_2
+
+
+# TEA
+# ----
+df_analisis_tendencia_semana
+df_analisis_tendencia_mes
